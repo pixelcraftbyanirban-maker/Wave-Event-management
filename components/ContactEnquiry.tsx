@@ -97,14 +97,14 @@ export default function ContactEnquiry() {
             </div>
 
             {/* Journey A Button (Figma node 249:2636) */}
-            <div className="pt-4 sm:pt-6">
+            <div className="pt-6 sm:pt-8">
               <Link
                 href="#experiences"
-                className="bg-[#ff2d55] hover:bg-[#ff4d70] text-[#090c25] font-['Oswald',sans-serif] font-medium text-[12px] sm:text-[13px] tracking-[0.5px] h-[28px] rounded-[2px] w-auto inline-flex px-3.5 items-center justify-center gap-1.5 uppercase transition-all duration-200 shadow-[0_0_10px_rgba(255,45,85,0.3)] group focus:outline-none focus:ring-1 focus:ring-white"
+                className="bg-[#ff2d55] hover:bg-[#ff4d70] text-[#090c25] font-['DM_Sans',sans-serif] font-semibold text-[14px] tracking-wide uppercase h-[44px] px-[24px] rounded-[4px] w-fit inline-flex items-center justify-center gap-2 transition-all duration-200 shadow-[0_0_20px_rgba(255,45,85,0.35)] hover:shadow-[0_0_28px_rgba(255,45,85,0.55)] group focus:outline-none focus:ring-2 focus:ring-white shrink-0"
                 data-node-id="249:2636"
               >
                 <span>EXPLORE EVENTS</span>
-                <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
+                <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </Link>
             </div>
           </div>
@@ -155,7 +155,7 @@ export default function ContactEnquiry() {
                         scope: "",
                       });
                     }}
-                    className="px-6 py-2.5 bg-[#252842] hover:bg-[#34385a] border border-[#68d3ff] text-[#68d3ff] hover:text-white rounded-[2px] text-xs font-mono tracking-wider uppercase transition-colors"
+                    className="h-[42px] px-[22px] bg-[#252842] hover:bg-[#34385a] border border-[#68d3ff] text-[#68d3ff] hover:text-white rounded-[2px] text-[13px] font-mono tracking-wider uppercase transition-colors inline-flex items-center justify-center w-fit focus:outline-none focus:ring-2 focus:ring-[#68d3ff]"
                   >
                     Submit Another Enquiry
                   </button>
@@ -292,11 +292,11 @@ export default function ContactEnquiry() {
                 </div>
 
                 {/* Row 5: Centered Submit Button with Loading State (Figma node 264:2895 / 264:2896) */}
-                <div className="pt-3 flex justify-center w-full">
+                <div className="pt-4 flex justify-center w-full">
                   <button
                     type="submit"
                     disabled={isSubmitting}
-                    className="bg-[#ff2d55] hover:bg-[#ff4d70] disabled:bg-[#ff2d55]/70 text-[#00285c] font-['DM_Sans',sans-serif] font-bold text-[11px] sm:text-[11.5px] tracking-[0.6px] uppercase h-[28px] px-4 rounded-[2px] transition-all duration-200 shadow-[0_0_12px_rgba(75,142,255,0.4)] hover:shadow-[0_0_18px_rgba(255,45,85,0.6)] cursor-pointer whitespace-nowrap min-w-[140px] text-center flex items-center justify-center gap-1.5"
+                    className="bg-[#ff2d55] hover:bg-[#ff4d70] disabled:bg-[#ff2d55]/70 text-[#00285c] font-['DM_Sans',sans-serif] font-semibold text-[14px] tracking-[0.7px] uppercase h-[44px] px-[26px] rounded-[4px] transition-all duration-200 shadow-[0_0_20px_rgba(255,45,85,0.35)] hover:shadow-[0_0_30px_rgba(255,45,85,0.55)] cursor-pointer whitespace-nowrap w-full sm:w-fit sm:min-w-[220px] text-center flex items-center justify-center gap-2 focus:outline-none focus:ring-2 focus:ring-white"
                     data-node-id="264:2895"
                   >
                     {isSubmitting ? (

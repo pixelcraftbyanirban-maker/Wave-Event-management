@@ -86,7 +86,7 @@ export default function Navbar() {
           <div className="flex items-center gap-3 sm:gap-4">
             <Link
               href="#experiences"
-              className="bg-[#ff2d55] hover:bg-[#ff4d70] text-[#00061f] font-['DM_Sans',sans-serif] font-bold text-[10px] sm:text-[11px] tracking-[0.5px] uppercase h-[25px] sm:h-[26px] px-2.5 sm:px-3 rounded-[2px] flex items-center justify-center transition-all duration-200 shadow-[0_0_10px_rgba(255,45,85,0.3)] hover:shadow-[0_0_15px_rgba(255,45,85,0.5)] focus:outline-none focus:ring-1 focus:ring-white shrink-0"
+              className="bg-[#ff2d55] hover:bg-[#ff4d70] text-[#00061f] font-['DM_Sans',sans-serif] font-semibold text-[14px] tracking-wide uppercase h-[44px] px-[26px] w-fit rounded-[4px] flex items-center justify-center transition-all duration-200 shadow-[0_0_20px_rgba(255,45,85,0.35)] hover:shadow-[0_0_28px_rgba(255,45,85,0.55)] focus:outline-none focus:ring-2 focus:ring-white shrink-0"
             >
               <span className="whitespace-nowrap">Explore EXPERIENCES</span>
             </Link>
@@ -94,7 +94,7 @@ export default function Navbar() {
             {/* Mobile Hamburger Toggle */}
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="lg:hidden flex items-center justify-center p-2 rounded text-[#c1c6d7] hover:text-white focus:outline-none focus:ring-1 focus:ring-[#3fc7f5]"
+              className="lg:hidden flex items-center justify-center min-w-[44px] min-h-[44px] p-2 rounded text-[#c1c6d7] hover:text-white focus:outline-none focus:ring-2 focus:ring-[#3fc7f5]"
               aria-label="Toggle navigation menu"
             >
               {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
@@ -123,7 +123,7 @@ export default function Navbar() {
                   setIsMobileMenuOpen(false);
                   setIsDirectoryOpen(true);
                 }}
-                className="w-full py-3 text-center border border-[rgba(104,211,255,0.3)] bg-[#161933] text-[#3fc7f5] font-mono text-xs font-bold tracking-widest uppercase rounded-[2px]"
+                className="w-full h-[46px] px-4 flex items-center justify-center border border-[rgba(104,211,255,0.3)] bg-[#161933] text-[#3fc7f5] hover:bg-[#1d2245] font-mono text-xs font-bold tracking-widest uppercase rounded-[2px] transition-colors"
               >
                 // VIEW FULL ARCHITECTURE DIRECTORY
               </button>
@@ -156,10 +156,10 @@ export default function Navbar() {
             {/* Coral CLOSE × button (Figma node 209:1473) */}
             <button
               onClick={() => setIsDirectoryOpen(false)}
-              className="bg-[#FF2D55] hover:bg-[#FF4D70] text-[#00061F] font-['DM_Sans',sans-serif] font-bold text-[10px] tracking-[0.8px] uppercase px-2.5 py-1 rounded-[2px] flex items-center gap-1 transition-all shadow-[0_0_10px_rgba(255,45,85,0.3)] focus:outline-none focus:ring-2 focus:ring-white cursor-pointer"
+              className="bg-[#FF2D55] hover:bg-[#FF4D70] text-[#00061F] font-['DM_Sans',sans-serif] font-semibold text-[13px] tracking-[1px] uppercase h-[40px] px-[20px] rounded-[2px] flex items-center gap-2 transition-all shadow-[0_0_15px_rgba(255,45,85,0.4)] focus:outline-none focus:ring-2 focus:ring-white cursor-pointer"
             >
               <span>CLOSE</span>
-              <X className="w-3 h-3 stroke-[3]" />
+              <X className="w-4 h-4 stroke-[3]" />
             </button>
           </div>
 
