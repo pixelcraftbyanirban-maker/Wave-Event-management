@@ -97,14 +97,14 @@ export default function ContactEnquiry() {
             </div>
 
             {/* Journey A Button (Figma node 249:2636) */}
-            <div className="pt-8">
+            <div className="pt-6 sm:pt-8">
               <Link
                 href="#experiences"
-                className="bg-[#ff2d55] hover:bg-[#ff4d70] text-[#090c25] font-['Oswald',sans-serif] font-medium text-[22px] sm:text-[26px] tracking-[0.28px] h-[60px] rounded-[4px] w-full max-w-[280px] flex items-center justify-center gap-2 uppercase transition-all duration-200 shadow-[0_0_20px_rgba(255,45,85,0.35)] group focus:outline-none focus:ring-2 focus:ring-white"
+                className="bg-[#ff2d55] hover:bg-[#ff4d70] text-[#090c25] font-['Oswald',sans-serif] font-medium text-[15px] sm:text-[16px] tracking-[0.5px] h-[38px] rounded-[3px] w-auto inline-flex px-5 items-center justify-center gap-2 uppercase transition-all duration-200 shadow-[0_0_15px_rgba(255,45,85,0.3)] group focus:outline-none focus:ring-2 focus:ring-white"
                 data-node-id="249:2636"
               >
                 <span>EXPLORE EVENTS</span>
-                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </Link>
             </div>
           </div>
@@ -296,7 +296,7 @@ export default function ContactEnquiry() {
                   <button
                     type="submit"
                     disabled={isSubmitting}
-                    className="bg-[#ff2d55] hover:bg-[#ff4d70] disabled:bg-[#ff2d55]/70 text-[#00285c] font-['DM_Sans',sans-serif] font-bold text-[14px] tracking-[0.7px] uppercase px-[40px] py-[16px] rounded-[2px] transition-all duration-200 shadow-[0_0_20px_rgba(75,142,255,0.4)] hover:shadow-[0_0_30px_rgba(255,45,85,0.6)] cursor-pointer whitespace-nowrap min-w-[260px] text-center flex items-center justify-center gap-2"
+                    className="bg-[#ff2d55] hover:bg-[#ff4d70] disabled:bg-[#ff2d55]/70 text-[#00285c] font-['DM_Sans',sans-serif] font-bold text-[12px] sm:text-[13px] tracking-[0.6px] uppercase h-[38px] px-6 rounded-[3px] transition-all duration-200 shadow-[0_0_15px_rgba(75,142,255,0.4)] hover:shadow-[0_0_25px_rgba(255,45,85,0.6)] cursor-pointer whitespace-nowrap min-w-[180px] text-center flex items-center justify-center gap-2"
                     data-node-id="264:2895"
                   >
                     {isSubmitting ? (
