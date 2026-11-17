@@ -86,7 +86,7 @@ export default function Navbar() {
           <div className="flex items-center gap-3 sm:gap-4">
             <Link
               href="#experiences"
-              className="bg-[#ff2d55] hover:bg-[#ff4d70] text-[#00061f] font-['DM_Sans',sans-serif] font-medium text-[16px] h-[48px] px-6 sm:w-[250px] rounded-[4px] flex items-center justify-center transition-all duration-200 shadow-[0_0_20px_rgba(255,45,85,0.35)] hover:shadow-[0_0_30px_rgba(255,45,85,0.55)] focus:outline-none focus:ring-2 focus:ring-white shrink-0"
+              className="bg-[#ff2d55] hover:bg-[#ff4d70] text-[#00061f] font-['DM_Sans',sans-serif] font-bold text-[13px] sm:text-[14px] tracking-[0.5px] uppercase h-[38px] px-4 sm:px-5 rounded-[4px] flex items-center justify-center transition-all duration-200 shadow-[0_0_15px_rgba(255,45,85,0.35)] hover:shadow-[0_0_25px_rgba(255,45,85,0.55)] focus:outline-none focus:ring-2 focus:ring-white shrink-0"
             >
               <span className="whitespace-nowrap">Explore EXPERIENCES</span>
             </Link>
