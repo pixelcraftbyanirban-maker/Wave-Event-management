@@ -86,7 +86,7 @@ export default function Navbar() {
           <div className="flex items-center gap-3 sm:gap-4">
             <Link
               href="#experiences"
-              className="bg-[#ff2d55] hover:bg-[#ff4d70] text-[#00061f] font-['DM_Sans',sans-serif] font-bold text-[11px] sm:text-[12px] tracking-[0.6px] uppercase h-[32px] px-3.5 sm:px-4 rounded-[3px] flex items-center justify-center transition-all duration-200 shadow-[0_0_12px_rgba(255,45,85,0.3)] hover:shadow-[0_0_18px_rgba(255,45,85,0.5)] focus:outline-none focus:ring-2 focus:ring-white shrink-0"
+              className="bg-[#ff2d55] hover:bg-[#ff4d70] text-[#00061f] font-['DM_Sans',sans-serif] font-bold text-[10px] sm:text-[11px] tracking-[0.5px] uppercase h-[25px] sm:h-[26px] px-2.5 sm:px-3 rounded-[2px] flex items-center justify-center transition-all duration-200 shadow-[0_0_10px_rgba(255,45,85,0.3)] hover:shadow-[0_0_15px_rgba(255,45,85,0.5)] focus:outline-none focus:ring-1 focus:ring-white shrink-0"
             >
               <span className="whitespace-nowrap">Explore EXPERIENCES</span>
             </Link>
@@ -156,10 +156,10 @@ export default function Navbar() {
             {/* Coral CLOSE × button (Figma node 209:1473) */}
             <button
               onClick={() => setIsDirectoryOpen(false)}
-              className="bg-[#FF2D55] hover:bg-[#FF4D70] text-[#00061F] font-['DM_Sans',sans-serif] font-bold text-[11px] tracking-[0.8px] uppercase px-3 py-1.5 rounded-[2px] flex items-center gap-1.5 transition-all shadow-[0_0_12px_rgba(255,45,85,0.3)] focus:outline-none focus:ring-2 focus:ring-white cursor-pointer"
+              className="bg-[#FF2D55] hover:bg-[#FF4D70] text-[#00061F] font-['DM_Sans',sans-serif] font-bold text-[10px] tracking-[0.8px] uppercase px-2.5 py-1 rounded-[2px] flex items-center gap-1 transition-all shadow-[0_0_10px_rgba(255,45,85,0.3)] focus:outline-none focus:ring-2 focus:ring-white cursor-pointer"
             >
               <span>CLOSE</span>
-              <X className="w-3.5 h-3.5 stroke-[3]" />
+              <X className="w-3 h-3 stroke-[3]" />
             </button>
           </div>
 

@@ -44,11 +44,11 @@ export default function Hero() {
           </p>
 
           {/* CTAs (Figma nodes 244:115 & 244:119) */}
-          <div className="flex flex-wrap items-center gap-[16px] sm:gap-[20px] pt-2 animate-fadeInUp [animation-delay:800ms]">
+          <div className="flex flex-wrap items-center gap-[10px] sm:gap-[14px] pt-2 animate-fadeInUp [animation-delay:800ms]">
             {/* Primary CTA: Explore Experiences */}
             <Link
               href="#experiences"
-              className="bg-[#ff2d55] hover:bg-[#ff4d70] text-[#00061f] font-['DM_Sans',sans-serif] font-bold text-[13px] h-[36px] px-[18px] rounded-[3px] flex items-center justify-center transition-all duration-200 shadow-[0_0_16px_rgba(255,45,85,0.35)] hover:shadow-[0_0_24px_rgba(255,45,85,0.55)] focus:outline-none focus:ring-2 focus:ring-white shrink-0 uppercase tracking-wide"
+              className="bg-[#ff2d55] hover:bg-[#ff4d70] text-[#00061f] font-['DM_Sans',sans-serif] font-bold text-[11px] sm:text-[11.5px] h-[26px] px-[14px] rounded-[2px] flex items-center justify-center transition-all duration-200 shadow-[0_0_10px_rgba(255,45,85,0.35)] hover:shadow-[0_0_16px_rgba(255,45,85,0.55)] focus:outline-none focus:ring-1 focus:ring-white shrink-0 uppercase tracking-wide"
             >
               <span className="whitespace-nowrap">EXPLORE EXPERIENCES</span>
             </Link>
@@ -56,7 +56,7 @@ export default function Hero() {
             {/* Secondary CTA: Plan Your Event */}
             <Link
               href="#contact"
-              className="bg-[#06091f] hover:bg-[#0c123d] border border-[#3fc7f5] text-[#e3e5ff] font-['DM_Sans',sans-serif] font-bold text-[13px] h-[36px] px-[18px] rounded-[2px] flex items-center justify-center transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-[#3fc7f5] shrink-0 uppercase tracking-wide"
+              className="bg-[#06091f] hover:bg-[#0c123d] border border-[#3fc7f5] text-[#e3e5ff] font-['DM_Sans',sans-serif] font-bold text-[11px] sm:text-[11.5px] h-[26px] px-[14px] rounded-[2px] flex items-center justify-center transition-all duration-200 focus:outline-none focus:ring-1 focus:ring-[#3fc7f5] shrink-0 uppercase tracking-wide"
             >
               <span className="whitespace-nowrap">PLAN YOUR EVENT</span>
             </Link>
