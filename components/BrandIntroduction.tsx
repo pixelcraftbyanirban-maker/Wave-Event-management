@@ -64,26 +64,26 @@ export default function BrandIntroduction() {
 
         {/* Telemetry Strip: 4 Critical Metric Blocks (Figma node 206:1047) */}
         <div
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 pt-2"
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 pt-2"
           data-node-id="206:1047"
           data-name="Telemetry Strip (4 Critical Metric Blocks)"
         >
           {telemetryBlocks.map((block) => (
             <div
               key={block.tag}
-              className="bg-[#161933] p-[24px] rounded-[2px] relative flex flex-col justify-between min-h-[156px] shadow-[0px_4px_6px_-1px_rgba(0,0,0,0.1),0px_2px_4px_-2px_rgba(0,0,0,0.1)] group hover:-translate-y-0.5 transition-all duration-200"
+              className="bg-[#161933] p-5 xl:p-6 rounded-[2px] relative flex flex-col justify-between min-h-[156px] shadow-[0px_4px_6px_-1px_rgba(0,0,0,0.1),0px_2px_4px_-2px_rgba(0,0,0,0.1)] group hover:-translate-y-0.5 transition-all duration-200"
             >
               {/* Top Accent Gradient Line */}
               <div
                 className={`absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r ${block.lineGradient} opacity-40 group-hover:opacity-100 transition-opacity`}
               />
 
-              <div className="flex flex-col gap-[4px]">
+              <div className="flex flex-col gap-[6px]">
                 <span className="font-mono font-bold text-[#8b90a0] text-[10px] tracking-[1px] uppercase">
                   {block.tag}
                 </span>
                 <span
-                  className={`font-['Oswald',sans-serif] font-bold text-[40px] sm:text-[48px] tracking-[-1.2px] leading-[52px] ${block.color}`}
+                  className={`font-['Oswald',sans-serif] font-bold text-[30px] sm:text-[34px] lg:text-[26px] xl:text-[32px] 2xl:text-[36px] tracking-[-0.5px] leading-[1.1] ${block.color}`}
                 >
                   {block.value}
                 </span>
