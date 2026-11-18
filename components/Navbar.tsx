@@ -84,10 +84,10 @@ export default function Navbar() {
 
           {/* Right: Desktop CTA & Mobile Controls (Figma node 206:1003) */}
           <div className="flex items-center gap-3 sm:gap-4">
-            {/* Desktop Compact CTA (Strictly hidden on mobile/tablet) */}
+            {/* Desktop Compact CTA (50% smaller navigation action, strictly hidden on mobile/tablet) */}
             <Link
               href="#experiences"
-              className="hidden lg:flex bg-[#ff2d55] hover:bg-[#ff4d70] text-[#00061f] font-['DM_Sans',sans-serif] font-semibold text-[12.5px] tracking-wide uppercase h-[36px] px-[18px] w-fit rounded-[2px] items-center justify-center transition-all duration-200 shadow-[0_0_15px_rgba(255,45,85,0.35)] hover:shadow-[0_0_22px_rgba(255,45,85,0.55)] focus:outline-none focus:ring-2 focus:ring-white shrink-0"
+              className="hidden lg:flex bg-[#ff2d55] hover:bg-[#ff4d70] text-[#00061f] font-['DM_Sans',sans-serif] font-semibold text-[12.5px] tracking-[0.4px] uppercase h-[36px] px-[18px] w-fit rounded-[3px] items-center justify-center transition-all duration-200 shadow-[0_0_14px_rgba(255,45,85,0.35)] hover:shadow-[0_0_20px_rgba(255,45,85,0.55)] focus:outline-none focus:ring-1 focus:ring-white shrink-0 touch-target-44"
             >
               <span className="whitespace-nowrap">Explore EXPERIENCES</span>
             </Link>
@@ -109,7 +109,7 @@ export default function Navbar() {
       {isMobileMenuOpen && (
         <div className="fixed inset-x-0 top-[73px] z-40 bg-[#090C25]/98 border-b border-[rgba(173,198,255,0.2)] p-6 lg:hidden backdrop-blur-xl animate-fadeIn shadow-2xl max-h-[calc(100vh-73px)] overflow-y-auto">
           <nav className="flex flex-col">
-            {/* 1-4. Navigation Links */}
+            {/* Navigation Links Menu */}
             <div className="flex flex-col">
               {navLinks.map((link) => (
                 <Link
@@ -123,28 +123,28 @@ export default function Navbar() {
               ))}
             </div>
 
+            {/* Explore EXPERIENCES CTA - Directly under the navigation menu for mobile */}
+            <div className="pt-4 pb-2">
+              <Link
+                href="#experiences"
+                onClick={() => setIsMobileMenuOpen(false)}
+                className="w-full sm:w-fit h-[40px] px-5 bg-[#ff2d55] hover:bg-[#ff4d70] text-[#00061f] font-['DM_Sans',sans-serif] font-semibold text-[13px] tracking-wide uppercase rounded-[3px] flex items-center justify-center transition-all duration-200 shadow-[0_0_16px_rgba(255,45,85,0.35)] hover:shadow-[0_0_24px_rgba(255,45,85,0.55)] focus:outline-none focus:ring-2 focus:ring-white shrink-0"
+              >
+                <span className="whitespace-nowrap">Explore EXPERIENCES</span>
+              </Link>
+            </div>
+
             {/* Architectural Directory Link */}
-            <div className="pt-4 pb-3">
+            <div className="pt-2">
               <button
                 onClick={() => {
                   setIsMobileMenuOpen(false);
                   setIsDirectoryOpen(true);
                 }}
-                className="w-full h-[32px] px-3 flex items-center justify-center border border-[rgba(104,211,255,0.25)] bg-[#161933] text-[#3fc7f5] hover:bg-[#1d2245] font-mono text-[10px] font-bold tracking-wider uppercase rounded-[2px] transition-colors focus:outline-none focus:ring-1 focus:ring-[#3fc7f5]"
+                className="w-full h-[32px] px-3.5 flex items-center justify-center border border-[rgba(104,211,255,0.2)] bg-[#161933] text-[#3fc7f5] hover:bg-[#1d2245] font-mono text-[10px] font-bold tracking-wider uppercase rounded-[2px] transition-colors focus:outline-none focus:ring-1 focus:ring-[#3fc7f5]"
               >
                 // VIEW FULL ARCHITECTURE DIRECTORY
               </button>
-            </div>
-
-            {/* 5. Final Action: Explore EXPERIENCES CTA */}
-            <div className="pt-1">
-              <Link
-                href="#experiences"
-                onClick={() => setIsMobileMenuOpen(false)}
-                className="w-full sm:w-fit h-[38px] px-5 bg-[#ff2d55] hover:bg-[#ff4d70] text-[#00061f] font-['DM_Sans',sans-serif] font-semibold text-[13px] tracking-wide uppercase rounded-[2px] flex items-center justify-center transition-all duration-200 shadow-[0_0_15px_rgba(255,45,85,0.35)] hover:shadow-[0_0_22px_rgba(255,45,85,0.55)] focus:outline-none focus:ring-2 focus:ring-white shrink-0"
-              >
-                <span className="whitespace-nowrap">Explore EXPERIENCES</span>
-              </Link>
             </div>
           </nav>
         </div>
@@ -174,10 +174,10 @@ export default function Navbar() {
             {/* Coral CLOSE × button (Figma node 209:1473) */}
             <button
               onClick={() => setIsDirectoryOpen(false)}
-              className="bg-[#FF2D55] hover:bg-[#FF4D70] text-[#00061F] font-['DM_Sans',sans-serif] font-semibold text-[9.5px] tracking-[0.5px] uppercase h-[20px] px-[8px] rounded-[2px] flex items-center gap-1 transition-all shadow-[0_0_8px_rgba(255,45,85,0.3)] focus:outline-none focus:ring-1 focus:ring-white cursor-pointer touch-target-44"
+              className="bg-[#FF2D55] hover:bg-[#FF4D70] text-[#00061F] font-['DM_Sans',sans-serif] font-semibold text-[11px] tracking-[0.5px] uppercase h-[30px] px-[12px] rounded-[3px] flex items-center gap-1.5 transition-all shadow-[0_0_12px_rgba(255,45,85,0.35)] focus:outline-none focus:ring-1 focus:ring-white cursor-pointer touch-target-44"
             >
               <span>CLOSE</span>
-              <X className="w-2.5 h-2.5 stroke-[2.5]" />
+              <X className="w-3.5 h-3.5 stroke-[2.5]" />
             </button>
           </div>
 

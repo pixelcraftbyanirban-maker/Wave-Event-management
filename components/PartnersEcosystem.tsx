@@ -88,7 +88,7 @@ export default function PartnersEcosystem() {
         <div className="flex justify-center pt-2">
           <Link
             href="#contact"
-            className="border border-[#087bff] bg-[#090c25] hover:bg-[#161933] text-[#ff2d55] hover:text-[#ff4d70] font-['DM_Sans',sans-serif] font-semibold text-[10px] tracking-[0.4px] uppercase h-[22px] px-[10px] w-fit rounded-[2px] inline-flex items-center justify-center transition-all duration-200 shadow-sm focus:outline-none focus:ring-1 focus:ring-[#087bff] touch-target-44"
+            className="border border-[#087bff]/80 hover:border-[#ff2d55] bg-[#090c25] hover:bg-[#161933] text-[#ff2d55] hover:text-[#ff4d70] font-['DM_Sans',sans-serif] font-semibold text-[13px] tracking-wider uppercase h-[40px] px-6 w-fit rounded-[3px] inline-flex items-center justify-center transition-all duration-200 shadow-[0_0_15px_rgba(8,123,255,0.2)] hover:shadow-[0_0_20px_rgba(255,45,85,0.3)] focus:outline-none focus:ring-1 focus:ring-[#087bff] touch-target-44"
           >
             DISCUSS A COLLABORATION
           </Link>

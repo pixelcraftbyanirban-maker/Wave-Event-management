@@ -44,11 +44,11 @@ export default function Hero() {
           </p>
 
           {/* CTAs (Figma nodes 244:115 & 244:119) */}
-          <div className="flex flex-wrap items-center gap-[10px] sm:gap-[12px] pt-2 animate-fadeInUp [animation-delay:800ms]">
+          <div className="flex flex-wrap items-center gap-3 sm:gap-4 pt-2 animate-fadeInUp [animation-delay:800ms]">
             {/* Primary CTA: Explore Experiences */}
             <Link
               href="#experiences"
-              className="bg-[#ff2d55] hover:bg-[#ff4d70] text-[#00061f] font-['DM_Sans',sans-serif] font-semibold text-[10px] h-[23px] px-[10px] w-fit rounded-[2px] flex items-center justify-center transition-all duration-200 shadow-[0_0_12px_rgba(255,45,85,0.3)] hover:shadow-[0_0_18px_rgba(255,45,85,0.5)] focus:outline-none focus:ring-1 focus:ring-white shrink-0 uppercase tracking-[0.4px] touch-target-44"
+              className="bg-[#ff2d55] hover:bg-[#ff4d70] text-[#00061f] font-['DM_Sans',sans-serif] font-semibold text-[13px] h-[40px] sm:h-[42px] px-5 sm:px-6 w-fit rounded-[3px] flex items-center justify-center transition-all duration-200 shadow-[0_0_20px_rgba(255,45,85,0.35)] hover:shadow-[0_0_28px_rgba(255,45,85,0.6)] focus:outline-none focus:ring-1 focus:ring-white shrink-0 uppercase tracking-[0.6px] touch-target-44"
             >
               <span className="whitespace-nowrap">EXPLORE EXPERIENCES</span>
             </Link>
@@ -56,7 +56,7 @@ export default function Hero() {
             {/* Secondary CTA: Plan Your Event */}
             <Link
               href="#contact"
-              className="bg-[#06091f] hover:bg-[#0c123d] border border-[#3fc7f5] text-[#e3e5ff] font-['DM_Sans',sans-serif] font-semibold text-[10px] h-[23px] px-[9px] w-fit rounded-[2px] flex items-center justify-center transition-all duration-200 focus:outline-none focus:ring-1 focus:ring-[#3fc7f5] shrink-0 uppercase tracking-[0.4px] touch-target-44"
+              className="bg-[#06091f]/80 hover:bg-[#0c123d] border border-[#3fc7f5] text-[#e3e5ff] hover:text-white hover:border-[#68d3ff] hover:shadow-[0_0_18px_rgba(63,199,245,0.3)] font-['DM_Sans',sans-serif] font-semibold text-[13px] h-[40px] sm:h-[42px] px-5 sm:px-6 w-fit rounded-[3px] flex items-center justify-center transition-all duration-200 focus:outline-none focus:ring-1 focus:ring-[#3fc7f5] shrink-0 uppercase tracking-[0.6px] touch-target-44"
             >
               <span className="whitespace-nowrap">PLAN YOUR EVENT</span>
             </Link>

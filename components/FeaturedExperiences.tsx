@@ -106,7 +106,7 @@ export default function FeaturedExperiences() {
               <div className="px-[24px] pb-[18px] pt-[12px] border-t border-[rgba(65,71,84,0.3)] flex items-center justify-between">
                 <Link
                   href="#contact"
-                  className="inline-flex items-center gap-[2px] font-['DM_Sans',sans-serif] font-bold text-[10px] text-[#ff2d55] tracking-[0.4px] uppercase hover:text-[#ff4d70] transition-colors h-[20px] focus:outline-none focus:ring-1 focus:ring-[#ff2d55] rounded-[2px] touch-target-44"
+                  className="inline-flex items-center gap-1.5 font-['DM_Sans',sans-serif] font-bold text-[11.5px] text-[#ff2d55] tracking-[0.6px] uppercase hover:text-[#ff4d70] hover:bg-[#ff2d55]/10 px-2.5 h-[28px] transition-colors focus:outline-none focus:ring-1 focus:ring-[#ff2d55] rounded-[2px] touch-target-44"
                 >
                   <span>CONCEPT DETAILS →</span>
                 </Link>
