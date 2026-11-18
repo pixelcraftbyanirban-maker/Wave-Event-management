@@ -123,19 +123,8 @@ export default function Navbar() {
               ))}
             </div>
 
-            {/* Explore EXPERIENCES CTA - Directly under the navigation menu for mobile */}
-            <div className="pt-4 pb-2">
-              <Link
-                href="#experiences"
-                onClick={() => setIsMobileMenuOpen(false)}
-                className="w-full sm:w-fit h-[40px] px-5 bg-[#ff2d55] hover:bg-[#ff4d70] text-[#00061f] font-['DM_Sans',sans-serif] font-semibold text-[13px] tracking-wide uppercase rounded-[3px] flex items-center justify-center transition-all duration-200 shadow-[0_0_16px_rgba(255,45,85,0.35)] hover:shadow-[0_0_24px_rgba(255,45,85,0.55)] focus:outline-none focus:ring-2 focus:ring-white shrink-0"
-              >
-                <span className="whitespace-nowrap">Explore EXPERIENCES</span>
-              </Link>
-            </div>
-
             {/* Architectural Directory Link */}
-            <div className="pt-2">
+            <div className="pt-3 pb-1">
               <button
                 onClick={() => {
                   setIsMobileMenuOpen(false);
@@ -145,6 +134,17 @@ export default function Navbar() {
               >
                 // VIEW FULL ARCHITECTURE DIRECTORY
               </button>
+            </div>
+
+            {/* Final Action: Explore EXPERIENCES CTA (under navigation menu) */}
+            <div className="pt-2 pb-2">
+              <Link
+                href="#experiences"
+                onClick={() => setIsMobileMenuOpen(false)}
+                className="w-full sm:w-fit h-[40px] px-5 bg-[#ff2d55] hover:bg-[#ff4d70] text-[#00061f] font-['DM_Sans',sans-serif] font-semibold text-[13px] tracking-wide uppercase rounded-[3px] flex items-center justify-center transition-all duration-200 shadow-[0_0_16px_rgba(255,45,85,0.35)] hover:shadow-[0_0_24px_rgba(255,45,85,0.55)] focus:outline-none focus:ring-2 focus:ring-white shrink-0"
+              >
+                <span className="whitespace-nowrap">Explore EXPERIENCES</span>
+              </Link>
             </div>
           </nav>
         </div>
