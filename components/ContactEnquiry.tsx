@@ -100,11 +100,11 @@ export default function ContactEnquiry() {
             <div className="pt-6 sm:pt-8">
               <Link
                 href="#experiences"
-                className="bg-[#ff2d55] hover:bg-[#ff4d70] text-[#090c25] font-['DM_Sans',sans-serif] font-semibold text-[14px] tracking-wide uppercase h-[44px] px-[24px] rounded-[4px] w-fit inline-flex items-center justify-center gap-2 transition-all duration-200 shadow-[0_0_20px_rgba(255,45,85,0.35)] hover:shadow-[0_0_28px_rgba(255,45,85,0.55)] group focus:outline-none focus:ring-2 focus:ring-white shrink-0"
+                className="bg-[#ff2d55] hover:bg-[#ff4d70] text-[#090c25] font-['DM_Sans',sans-serif] font-semibold text-[10px] tracking-[0.4px] uppercase h-[22px] px-[9px] rounded-[2px] w-fit inline-flex items-center justify-center gap-1 transition-all duration-200 shadow-[0_0_10px_rgba(255,45,85,0.3)] hover:shadow-[0_0_16px_rgba(255,45,85,0.5)] group focus:outline-none focus:ring-1 focus:ring-white shrink-0 touch-target-44"
                 data-node-id="249:2636"
               >
                 <span>EXPLORE EVENTS</span>
-                <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                <ArrowRight className="w-2.5 h-2.5 group-hover:translate-x-0.5 transition-transform" />
               </Link>
             </div>
           </div>
@@ -155,7 +155,7 @@ export default function ContactEnquiry() {
                         scope: "",
                       });
                     }}
-                    className="h-[42px] px-[22px] bg-[#252842] hover:bg-[#34385a] border border-[#68d3ff] text-[#68d3ff] hover:text-white rounded-[2px] text-[13px] font-mono tracking-wider uppercase transition-colors inline-flex items-center justify-center w-fit focus:outline-none focus:ring-2 focus:ring-[#68d3ff]"
+                    className="h-[21px] px-[9px] bg-[#252842] hover:bg-[#34385a] border border-[#68d3ff] text-[#68d3ff] hover:text-white rounded-[2px] text-[9.5px] font-mono tracking-wider uppercase transition-colors inline-flex items-center justify-center w-fit focus:outline-none focus:ring-1 focus:ring-[#68d3ff] touch-target-44"
                   >
                     Submit Another Enquiry
                   </button>
@@ -292,16 +292,16 @@ export default function ContactEnquiry() {
                 </div>
 
                 {/* Row 5: Centered Submit Button with Loading State (Figma node 264:2895 / 264:2896) */}
-                <div className="pt-4 flex justify-center w-full">
+                <div className="pt-3 flex justify-center w-full">
                   <button
                     type="submit"
                     disabled={isSubmitting}
-                    className="bg-[#ff2d55] hover:bg-[#ff4d70] disabled:bg-[#ff2d55]/70 text-[#00285c] font-['DM_Sans',sans-serif] font-semibold text-[14px] tracking-[0.7px] uppercase h-[44px] px-[26px] rounded-[4px] transition-all duration-200 shadow-[0_0_20px_rgba(255,45,85,0.35)] hover:shadow-[0_0_30px_rgba(255,45,85,0.55)] cursor-pointer whitespace-nowrap w-full sm:w-fit sm:min-w-[220px] text-center flex items-center justify-center gap-2 focus:outline-none focus:ring-2 focus:ring-white"
+                    className="bg-[#ff2d55] hover:bg-[#ff4d70] disabled:bg-[#ff2d55]/70 text-[#00285c] font-['DM_Sans',sans-serif] font-semibold text-[10.5px] tracking-[0.4px] uppercase h-[23px] px-[12px] rounded-[2px] transition-all duration-200 shadow-[0_0_10px_rgba(255,45,85,0.3)] hover:shadow-[0_0_16px_rgba(255,45,85,0.5)] cursor-pointer whitespace-nowrap w-fit text-center flex items-center justify-center gap-1.5 focus:outline-none focus:ring-1 focus:ring-white touch-target-44"
                     data-node-id="264:2895"
                   >
                     {isSubmitting ? (
                       <>
-                        <Loader2 className="w-4 h-4 animate-spin text-[#00285c]" />
+                        <Loader2 className="w-2.5 h-2.5 animate-spin text-[#00285c]" />
                         <span>DISPATCHING ENQUIRY...</span>
                       </>
                     ) : (

@@ -59,42 +59,42 @@ export default function Footer() {
             </div>
 
             {/* Social media profiles (Figma node 204:649) */}
-            <div className="flex items-center gap-[12px] pt-2">
+            <div className="flex items-center gap-[6px] pt-2">
               <Link
                 href="https://instagram.com"
                 target="_blank"
                 rel="noreferrer"
-                className="border border-[rgba(255,255,255,0.12)] hover:border-[#68d3ff] size-[32px] rounded-[2px] flex items-center justify-center text-[#c1c6d7] hover:text-[#68d3ff] transition-colors"
+                className="border border-[rgba(255,255,255,0.12)] hover:border-[#68d3ff] size-[20px] rounded-[2px] flex items-center justify-center text-[#c1c6d7] hover:text-[#68d3ff] transition-colors touch-target-44"
                 aria-label="WAVE on Instagram"
               >
-                <Instagram className="w-4 h-4" />
+                <Instagram className="w-2.5 h-2.5" />
               </Link>
               <Link
                 href="https://youtube.com"
                 target="_blank"
                 rel="noreferrer"
-                className="border border-[rgba(255,255,255,0.12)] hover:border-[#68d3ff] size-[32px] rounded-[2px] flex items-center justify-center text-[#c1c6d7] hover:text-[#68d3ff] transition-colors"
+                className="border border-[rgba(255,255,255,0.12)] hover:border-[#68d3ff] size-[20px] rounded-[2px] flex items-center justify-center text-[#c1c6d7] hover:text-[#68d3ff] transition-colors touch-target-44"
                 aria-label="WAVE on YouTube"
               >
-                <Youtube className="w-4 h-4" />
+                <Youtube className="w-2.5 h-2.5" />
               </Link>
               <Link
                 href="https://spotify.com"
                 target="_blank"
                 rel="noreferrer"
-                className="border border-[rgba(255,255,255,0.12)] hover:border-[#68d3ff] size-[32px] rounded-[2px] flex items-center justify-center text-[#c1c6d7] hover:text-[#68d3ff] transition-colors"
+                className="border border-[rgba(255,255,255,0.12)] hover:border-[#68d3ff] size-[20px] rounded-[2px] flex items-center justify-center text-[#c1c6d7] hover:text-[#68d3ff] transition-colors touch-target-44"
                 aria-label="WAVE on Spotify"
               >
-                <Disc className="w-4 h-4" />
+                <Disc className="w-2.5 h-2.5" />
               </Link>
               <Link
                 href="https://linkedin.com"
                 target="_blank"
                 rel="noreferrer"
-                className="border border-[rgba(255,255,255,0.12)] hover:border-[#68d3ff] size-[32px] rounded-[2px] flex items-center justify-center text-[#c1c6d7] hover:text-[#68d3ff] transition-colors"
+                className="border border-[rgba(255,255,255,0.12)] hover:border-[#68d3ff] size-[20px] rounded-[2px] flex items-center justify-center text-[#c1c6d7] hover:text-[#68d3ff] transition-colors touch-target-44"
                 aria-label="WAVE on LinkedIn"
               >
-                <Linkedin className="w-4 h-4" />
+                <Linkedin className="w-2.5 h-2.5" />
               </Link>
             </div>
           </div>
